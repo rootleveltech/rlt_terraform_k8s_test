@@ -8,15 +8,28 @@ The purpose of this test is to demonstrate your knowledge in the following areas
 * Kubernetes (GKE)
 * Helm
 
+
 ## Test Instructions
-1) The first thing we would like for you to do is setup a new google project. Give the project a name, following this convention: **rlt-test-firstname-lastname**.
-2) Create a service account that will be used when running Terraform. Please make the service account project owner. 
-3) Setup a GCS bucket that will hold your terraform remote state file. 
-4) Create Terraform code to deploy the Infrastructure. The infrastructure diagram can be found here. The infrastructure should contain the following:
-	1) VPC Network
-	2) Regional GKE Cluster with an auto scaling node pool.
-5) Deploy the helm chart supplied in this repo into the kubernetes cluster, from within Terraform. The helm chart will have some bugs/errors that you will need to fix.  
-	1) Setup helm/tiller
-	2) Deploy the helm chart
-	3) Debug the errors in the helm chart
+1) Create Terraform code to deploy a Kubernetes cluster inside of GCP. 
+2) Deploy the helm chart included in the repo into the kubernetes cluster. 
+	1) The helm chart will be a single nginx application that needs to be exposed to the outside world. 
+3) Fix any issues that may be present in the helm chart.
+4) Expose the application to the outside world.  
+
+
+## Bonus
+1) Make the kubernetes cluster private
+2) Configure multiple environments for the application, within the same Kubernetes cluster. (production and stage)
+3) Configure monitoring/alerts for the Kubernetes cluster. 
+4) Use istio 
+
+## Additional Comments
+* Please be prepared to talk through your design decisions with us.
+* If you are unable to complete all tasks in this test its not a deal breaker, but please do you best. If you run out of time and are unable to finish the code, please try to write in psuedo code or written language how you would approach the issues you were unable to finish.
+* We would like for this to be as close to a single command deployment as possible (terraform, and the helm deploy). 
+* We would also like for you to tackle this as you would a production ready deployment 
+
+
+
+
 
