@@ -22,6 +22,7 @@ The purpose of this test is to demonstrate your knowledge in the following areas
 3) Configure monitoring/alerts for the Kubernetes cluster. 
 4) Use istio 
 5) Use FQDN for service
+6) Stand up a second environment for the infrastructure in Terraform. 
 
 ## Additional Comments
 * Please be prepared to talk through your design decisions with us. We have left the instructions pretty vague, to let you take the end goal, and come up with the solution on your own. 
