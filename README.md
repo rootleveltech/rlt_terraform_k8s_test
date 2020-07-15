@@ -17,6 +17,8 @@ This repo holds the application code and Dockerfile in the "application" directo
 4) Fix any issues that may be present in the helm chart.
 5) Expose the application to the outside world.  
 
+**You will have 48 hours to get as much of this test done as possible. Once complete please commit your code to your won repo and send an email at codingtest@rootleveltech.com. In the email please include your first and last name, as well as a link to your git repo holding your code for this test. If you have any questions or need further clarifications please reach back out to us at codingtest@rootleveltech.com**
+
 
 ## Bonus
 1) Make the kubernetes cluster private
