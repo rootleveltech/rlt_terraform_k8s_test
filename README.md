@@ -12,7 +12,7 @@ This repo holds the application code and Dockerfile in the "application" directo
 
 ## Test Instructions
 1) Create Terraform code to deploy a Kubernetes cluster inside of GCP. 
-2) Build image and push GCR
+2) Build rlt-test application image and push GCR
 3) Deploy the helm chart included in the repo into the kubernetes cluster.  
 4) Fix any issues that may be present in the helm chart.
 5) Expose the application to the outside world.  
