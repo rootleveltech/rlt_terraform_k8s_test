@@ -15,7 +15,8 @@ This repo holds the application code and Dockerfile in the "application" directo
 2) Build rlt-test application image and push GCR
 3) Deploy the helm chart included in the repo into the kubernetes cluster.  
 4) Fix any issues that may be present in the helm chart.
-5) Expose the application to the outside world.  
+5) Expose the application to the outside world.
+6) Archive & Email Code or Setup a private Git Repo and grant access to bradenwright and mikerlt
 
 **You will have 48 hours to get as much of this test done as possible. Once complete please commit your code to your one repo and send an email at codingtest@rootleveltech.com. In the email please include your first and last name, as well as a link to your git repo holding your code for this test. If you have any questions or need further clarifications please reach back out to us at codingtest@rootleveltech.com**
 
@@ -27,6 +28,7 @@ This repo holds the application code and Dockerfile in the "application" directo
 4) Use istio 
 5) Use FQDN for service
 6) Stand up a second environment for the infrastructure in Terraform. 
+7) Setup CI/CD Pipelines for Helm and/or Terraform
 
 ## Additional Comments
 * Please be prepared to talk through your design decisions with us. We have left the instructions pretty vague, to let you take the end goal, and come up with the solution on your own. 
