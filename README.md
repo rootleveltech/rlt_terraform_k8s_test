@@ -16,6 +16,7 @@ This repo holds the application code and Dockerfile in the "application" directo
 3) Deploy the helm chart included in the repo into the kubernetes cluster.  
 4) Fix any issues that may be present in the helm chart.
 5) Expose the application to the outside world.
+6) DO NOT upoad this content anywhere public (github, online storage, etc)
 
 **You will have 48 hours to get as much of this test done as possible. Once complete please commit your code to your one repo and send an email at codingtest@rootleveltech.com. In the email please include your first and last name, as well as a link to your git repo holding your code for this test. If you have any questions or need further clarifications please reach back out to us at codingtest@rootleveltech.com**
 
